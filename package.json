@@ -1,7 +1,7 @@
 {
   "name": "@ryanpromax/vite-plugin-transfer-mpa",
   "author": "Ryan",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p ."
