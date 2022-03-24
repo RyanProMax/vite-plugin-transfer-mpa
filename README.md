@@ -5,6 +5,7 @@
 ## Motivation
 
 It will move the entry html file to the root directory, and rename the file with it's directory name.
+
 So you should ensure that `scanDir` is the parent directory of `the entry html file`.
 
 e.g `build/pages/home/index.html` -> `build/home.html`
@@ -17,7 +18,7 @@ npm install @ryanpromax/vite-plugin-transfer-mpa
 
 ```ts
 // vite.config.ts
-import mpa from 'vite-plugin-transfer-mpa'
+import mpa from '@ryanpromax/vite-plugin-transfer-mpa'
 
 // @see https://vitejs.dev/config/
 export default defineConfig({
